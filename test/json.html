@@ -1,0 +1,27 @@
+<!doctype HTML>
+<html>
+<head></head>
+<body>
+
+
+<div id="r"></div>
+<button id="charger">Infos projet</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+  $(function() {
+    $('#charger').click(function() {
+        $.getJSON('fichier.json', function(donnees) {
+        $('#r').html('<p><b>Nom</b> : ' + donnees.nom + '</p>');
+        $('#r').append('<p><b>Matricule</b> : ' + donnees.matricule + '</p>');
+        $('#r').append('<p><b>Groupe</b> : ' + donnees.groupe + '</p>');
+        $('#r').append('<p><b>Cours</b> : ' + donnees.cours + '</p>');
+         $('#r').append('<p><b>Projet</b> : ' + donnees.cadre + '</p>');
+      });
+    });  
+  });
+</script>
+
+
+</body>
+</html>
