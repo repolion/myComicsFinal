@@ -1,6 +1,6 @@
 <footer>
 	<p><a href="index.php">Accueil</a> | <a href="<?php echo BASE_URL.'/index.php?page=comics' ?>">Comics</a> | <a href="<?php echo BASE_URL.'/index.php?page=news' ?>">News</a></p>
-	<p>&copy; 2016 My Comics. All Rights Reserved. </p>
+	<p>&copy; 2016 my Comics. Tous droits réservés. </p>
 </footer>
 </div>
   

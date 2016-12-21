@@ -159,7 +159,7 @@
 		$bdd=connexion_BD('projetLion');
 
       //recherche les données de l'utilisateur connecté
-		$reponse = $bdd->query("SELECT id,prenom,nom,user_table,droits FROM login_users WHERE email='$email'");
+		$reponse = $bdd->query("SELECT id,prenom,nom,droits FROM login_users WHERE email='$email'");
 
         //Initialisation de variables globales utilisables pendant toute la durée de la connexion de l'utilisateur
 		while ($donnees = $reponse->fetch())

@@ -10,7 +10,7 @@
 
 </head>
 <header>
-	<div id="logo"><h1>MY<a href="#">Comics</a></h1></div>
+	<div id="logo"><h1>my<a href="#">Comics</a></h1></div>
 	<nav>
 		<ul class="lavaLampWithImage" id="lava_menu">
 			<li class="current"><a href="index.php">Accueil</a></li>
