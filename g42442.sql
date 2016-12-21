@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Mar 20 Décembre 2016 à 23:28
+-- Généré le :  Mer 21 Décembre 2016 à 01:23
 -- Version du serveur :  10.1.19-MariaDB
 -- Version de PHP :  5.6.28
 
@@ -83,7 +83,8 @@ CREATE TABLE `login_users` (
 
 INSERT INTO `login_users` (`id`, `nom`, `prenom`, `password`, `email`, `cle_d_activation`, `actif`, `newsletter`, `droits`) VALUES
 (29, 'Cordier', 'Olivier', '41bc5cc23a0da6c27b26c7fa3654c6d535c81f5a', 'mycomicsinfo@gmail.com', 'a78dd0dc62dca7ab619fe0726d5bec1d', 1, 'off', 1),
-(35, 'Cordier', 'Olivier', '41bc5cc23a0da6c27b26c7fa3654c6d535c81f5a', 'cordier.olivier83@gmail.com', 'bf4a4a5cff52d73341a0dc9f60c2492e', 1, 'off', 0);
+(35, 'Cordier', 'Olivier', '41bc5cc23a0da6c27b26c7fa3654c6d535c81f5a', 'cordier.olivier83@gmail.com', 'bf4a4a5cff52d73341a0dc9f60c2492e', 1, 'off', 0),
+(38, 'Vansteenkiste', 'Nicolas', '41bc5cc23a0da6c27b26c7fa3654c6d535c81f5a', 'nvansteenkiste@heb.be', 'a3ce1996f00540512d8cbcd97b6cedf3', 1, 'off', 1);
 
 -- --------------------------------------------------------
 
@@ -224,7 +225,7 @@ ALTER TABLE `dc_comics`
 -- AUTO_INCREMENT pour la table `login_users`
 --
 ALTER TABLE `login_users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 --
 -- AUTO_INCREMENT pour la table `marvel_now`
 --
